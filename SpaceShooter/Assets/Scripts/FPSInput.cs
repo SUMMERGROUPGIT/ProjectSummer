@@ -17,4 +17,5 @@ public class FPSInput : MonoBehaviour
         float deltaZ = Input.GetAxis("Vertical") * speed;
         transform.Translate(deltaX, 0, deltaZ);
     }
+
 }
